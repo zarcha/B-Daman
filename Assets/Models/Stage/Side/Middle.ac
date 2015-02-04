@@ -1,0 +1,41 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "box"
+loc -0.005 0.495 0.00565374
+texture "C:/Users/Zach/Documents/B-Daman/Assets/Materials/Stage/Sides/SideMiddle.png"
+crease 45.000000
+numvert 8
+-0.394161 -0.490916 -0.996464
+0.394161 -0.490916 -0.996464
+0.394161 -0.490916 0.996464
+-0.394161 -0.490916 0.996464
+-0.394161 0.511335 0.996464
+0.394161 0.511335 0.996464
+0.394161 0.511335 -0.996464
+-0.394161 0.511335 -0.996464
+numsurf 3
+SURF 0x30
+mat 0
+refs 4
+5 1 1.00581
+2 1 0
+1 0 0
+6 0 1.00581
+SURF 0x30
+mat 0
+refs 4
+7 0 1.00581
+0 0 0
+3 1 0
+4 1 1.00581
+SURF 0x30
+mat 0
+refs 4
+7 1 1
+4 5.96046e-008 1
+5 0 0
+6 1 0
+kids 0
