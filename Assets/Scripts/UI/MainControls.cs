@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MainControls : MonoBehaviour {
 	
@@ -9,10 +10,11 @@ public class MainControls : MonoBehaviour {
 	//Set ball amounts
 	public int balls;
 	public int maxBalls;
+	public GameObject ballTxt;
 	
 	//Set of control objects
 	public GameObject normFire;
-	public GameObject specFire;
+	//public GameObject specFire; this is something not in
 	public GameObject reload;
 	
 	//Set Player
@@ -38,6 +40,8 @@ public class MainControls : MonoBehaviour {
 			ButtonHit('r');
 		}
 		#endif
+		
+		ballTxt.GetComponent<Text>().text = "Balls: " + balls;
 	}
 	
 	public void ButtonHit(char butType)
